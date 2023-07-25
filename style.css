@@ -1,0 +1,110 @@
+
+.logo{
+    width: 180px;
+    border-radius: 1rem;
+}
+
+.navbar{
+    background-color:black;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.d-flex{
+    position: relative;
+    right: 500px;
+}
+
+.login{
+    margin-right: 10px;
+}
+
+.intro{
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.col{
+    position: relative;
+    left: 2%;
+}
+
+.row{
+    font-family: 'Martian Mono', monospace;
+        font-family: 'Ubuntu', sans-serif;
+    background-color:  black;
+    color: whitesmoke;
+}
+
+.fw-bold{
+    color: whitesmoke;
+}
+
+.products{
+    background-color: #000000;
+    color: whitesmoke;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.whey{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: -10px;
+  position: relative;
+  left: 20px;
+
+}
+.creatine{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 75px;
+    position: relative;
+    left: 30px;
+   
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+    .row{
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+}
+
+body{
+	background: linear-gradient(-45deg, #eeeeee, #748642);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

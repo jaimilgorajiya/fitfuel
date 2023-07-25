@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="icon" href="https://thefitfuelnutrition.com/wp-content/uploads/2021/08/d-14-150x150.png" sizes="32x32" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono&family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+    <title>FitFuels</title>
+</head>
+<body>
+    <!--NAVBAR-->
+    <section class="fit-nav">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <img src="./images/logo1.png" alt="Logo" class="logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color: whitesmoke;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: whitesmoke;">Products</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: whitesmoke;">
+                  Catogeries
+                </a>
+                <ul class="dropdown-menu" >
+                  <li><a class="dropdown-item" href="#">Whey Protein</a></li>
+                  <li><a class="dropdown-item" href="#">Mass/Weight Gainer</a></li>
+                  <li><a class="dropdown-item" href="#">Creatine</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: whitesmoke;">About us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+            <div class="reg">
+            <button class="login btn  btn-outline-light">Login</button>
+            <button class="signup btn  btn-outline-warning">Sign up</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!--INTRO-->
+    <section class="intro">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/intro1.jpg" class="d-block" width="1150" height="650">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/new1.png" class="d-block" width="1150" height="650" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/new2.png" class="d-block" width="1150" height="650" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <!--FEATURES-->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 py-5">
+      <div class="col d-flex align-items-start">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4" style="color: whitesmoke;">Whey Protein</h3><hr>
+          <p>Unlock your true strength with the power of whey protein.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4" style="color: whitesmoke;">Mass/Weight Gainer</h3><hr>
+          <p>Fuel your gains and reach new heights with our high-quality mass gainer.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4" style="color: whitesmoke;">Creatine</h3><hr>
+          <p>Elevate your performance with the transformative power of creatine.</p>
+        </div>
+      </div>
+    </div>
+  
+    </div>
+    
+
+    <!--PRODUCTS-->
+    <div class="products ">
+        <h1 style="text-decoration: underline;">Whey Protein</h1>  
+
+        <div class="whey ">
+            <div class="card row-cols-sm-1" style="width: 18rem; margin: 10px;" >
+                <img src="./images/whey/whey1.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">MuscleBlaze Biozyme Performance Whey, 2 kg (4.4 lb), Rich Chocolate</h5>
+                  <p class="card-text">₹4,099</p>
+                  <a href="#" class="btn btn-outline-dark" style="margin-top: 28px;">Buy Now</a>
+                </div>
+              </div>
+              <div class="card row-cols-sm-1" style="width: 18rem; margin: 10px;" >
+                <img src="./images/whey/whey2.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">MB Fuel One Whey Protein, 2 kg (4.4 lb), Chocolate</h5>
+                  <p class="card-text">₹3,500
+                  </p>
+                  <a href="#" class="btn btn-outline-dark" style="margin-top: 50px;">Buy Now</a>
+                </div>
+              </div>
+              <div class="card row-cols-sm-1" style="width: 18rem; margin: 10px;" >
+                <img src="./images/whey/whey3.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">MuscleBlaze Whey Gold 100% Whey Protein Isolate, 2 kg (4.4 lb), Rich Milk Chocolate
+                  </h5>
+                  <p class="card-text">₹6,499</p>
+                  <a href="#" class="btn btn-outline-dark">Buy Now</a>
+                </div>
+              </div>
+              <div class="card row-cols-sm-1" style="width: 18rem; margin: 10px;" >
+                <img src="./images/whey/whey4.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">MuscleBlaze Beginner's Protein Powder, 2 kg (4.4 lb), Chocolate</h5>
+                  <p class="card-text">₹2,449
+                  </p>
+                  <a href="#" class="btn btn-outline-dark" style="margin-top: 20px;">Buy Now</a>
+                </div>
+              </div>
+              <div class="card row-cols-sm-1" style="width: 18rem; margin: 10px;" >
+                <img src="./images/whey/whey5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Impact Whey Protein, 1kg,  Tropical Fruits</h5>
+                  <p class="card-text">₹4199</p>
+                  <a href="#" class="btn btn-outline-dark" style="margin-top: 68px;">Buy Now</a>
+                </div>
+              </div>
+              <div class="card row-cols-sm-1" style="width: 18rem; margin: 10px;" >
+                <img src="./images/whey/whey6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Impact Whey Isolate, 2kg, Chocolate</h5>
+                  <p class="card-text">₹10299</p>
+                  <a href="#" class="btn btn-outline-dark" style="margin-top: 68px;">Buy Now</a>
+                </div>
+              </div>
+              <div class="card row-cols-sm-1" style="width: 18rem; margin: 10px;" >
+                <img src="./images/whey/whey7.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">ICON ISOLATE, 1kg, Triple Chocolate</h5>
+                  <p class="card-text">₹ 3,599
+                  </p>
+                  <a href="#" class="btn btn-outline-dark">Buy Now</a>
+                </div>
+              </div>
+              <div class="card row-cols-sm-1" style="width: 18rem; margin: 10px;" >
+                <img src="./images/whey/whey8.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gold Standard 100% Whey Protein Powder | Double Rich Chocolate | 2 lbs
+                  </h5>
+                  <p class="card-text">₹ 3,099
+                  </p>
+                  <a href="#" class="btn btn-outline-dark" style="margin-top: 40px;">Buy Now</a>
+                </div>
+              </div>
+        </div>
+
+        <h1 style="text-decoration: underline; margin-top: 50px;">Mass/Weight Gainer</h1>
+        <div class="row">
+          
+        <div class="whey ">
+          <div class="card row-cols-sm-1" style="width: 18rem; margin: 10px;" >
+              <img src="./images/mass/mass.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MuscleBlaze Super Gainer XXL Weight Gainer, 5 kg (11 lb), Chocolate</h5>
+                <p class="card-text">₹3,999</p>
+                <a href="#" class="btn btn-outline-dark" style="margin-top: 28px;">Buy Now</a>
+              </div>
+            </div>
+            <div class="card row-cols-sm-1" style="width: 18rem; margin: 10px;" >
+              <img src="./images/mass/mass2.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MuscleBlaze Super Gainer Black, 2 kg (4.4 lb), Chocolate</h5>
+                <p class="card-text">₹3,500
+                </p>
+                <a href="#" class="btn btn-outline-dark" style="margin-top: 50px;">Buy Now</a>
+              </div>
+            </div>
+            <div class="card row-cols-sm-1" style="width: 18rem; margin: 10px;" >
+              <img src="./images/mass/mass3.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MuscleBlaze Bulk Gainer Mass Gainer with Creatine, 3 kg (6.6 lb), Chocolate</h5>
+                <p class="card-text">₹3,509</p>
+                <a href="#" class="btn btn-outline-dark">Buy Now</a>
+              </div>
+            </div>
+            <div class="card row-cols-sm-1" style="width: 18rem; margin: 10px;" >
+              <img src="./images/mass/mass4.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Serious Mass, 3 kg, Vanilla</h5>
+                <p class="card-text">₹3,229</p>
+                <a href="#" class="btn btn-outline-dark" style="margin-top: 20px;">Buy Now</a>
+              </div>
+            </div>
+            <div class="card row-cols-sm-1" style="width: 18rem; margin: 10px;" >
+              <img src="./images/mass/mass5.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">GNC Pro Performance Weight Gainer - Gain Healthy Weight, 3 kg, Double Chocolate</h5>
+                <p class="card-text">₹2,199 </p>
+                <a href="#" class="btn btn-outline-dark" style="margin-top: 68px;">Buy Now</a>
+              </div>
+            </div>
+            <div class="card row-cols-sm-1" style="width: 18rem; margin: 10px;" >
+              <img src="./images/mass/mass 6.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">GNC AMP Amplified Mass XXX - Gain Healthy Muscle Mass, 2 kg, Vanilla</h5>
+                <p class="card-text">₹3,149</p>
+                <a href="#" class="btn btn-outline-dark" style="margin-top: 68px;">Buy Now</a>
+              </div>  
+            </div>
+            <div class="card row-cols-sm-1" style="width: 18rem; margin: 10px;" >
+              <img src="./images/mass/mass7.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">HUNK GAINER, 3 kg, Belgium Chocolate</h5>
+                <p class="card-text">₹2,959</p>
+                <a href="#" class="btn btn-outline-dark">Buy Now</a>
+              </div>
+            </div>
+            <div class="card row-cols-sm-1" style="width: 18rem; margin: 10px;" >
+              <img src="./images/mass/mass8.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">HUNK GAINER GOLD 5KG SUPER VALUE PACK, Mango</h5>
+                <p class="card-text">₹ 3,099</p>
+                <a href="#" class="btn btn-outline-dark" style="margin-top: 40px;">Buy Now</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <h1 style="text-decoration: underline; margin-top: 50px;">Creatine</h1>
+    <div class="row creatine">
+      <div class="card row-cols-sm-1 col-lg-4" style="width: 18rem; margin: 10px;" >
+        <img src="./images/creatine/c1.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">MuscleBlaze Creatine Monohydrate, 250 g (0.55 lb)</h5>
+          <p class="card-text">₹999</p>
+          <a href="#" class="btn btn-outline-dark" style="margin-top: 28px;">Buy Now</a>
+        </div>
+      </div>
+      <div class="card row-cols-sm-1 col-lg-4" style="width: 18rem; margin: 10px;" >
+        <img src="./images/creatine/c2.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">MuscleBlaze CreaPRO Creatine with Creapure® Powder from Germany, 250 g (0.55 lb)</h5>
+          <p class="card-text">₹1,049</p>
+          <a href="#" class="btn btn-outline-dark" style="margin-top: 50px;">Buy Now</a>
+        </div>
+      </div>
+      <div class="card row-cols-sm-1 col-lg-4" style="width: 18rem; margin: 10px;" >
+        <img src="./images/creatine/c3.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Muscle Asylum Micronized Creatine Monohydrate Powder</h5>
+          <p class="card-text">₹529</p>
+          <a href="#" class="btn btn-outline-dark">Buy Now</a>
+        </div>
+      </div>
+      <div class="card row-cols-sm-1 col-lg-4" style="width: 18rem; margin: 10px;" >
+        <img src="./images/creatine/c4.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">GNC Pro Performance Creatine Monohydrate, 250gm</h5>
+          <p class="card-text">₹999</p>
+          <a href="#" class="btn btn-outline-dark" style="margin-top: 20px;">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+<!--FOOTER-->
+  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
